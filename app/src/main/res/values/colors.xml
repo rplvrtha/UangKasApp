@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="firstPrimaryColor">#4d72dc</color>
+    <color name="secondPrimaryColor">#5f93cf</color>
+    <color name="thirdPrimaryColor">#b3cefa</color>
+    <color name="nav_unselect">#999999</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

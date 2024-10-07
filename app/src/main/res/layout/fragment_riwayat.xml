@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/swipe"
+    tools:context=".fragments.RiwayatFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kasqu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+  <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_item"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      kasqu:layout_constraintBottom_toBottomOf="parent"
+      kasqu:layout_constraintStart_toStartOf="parent"
+      android:visibility="visible"
+      />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/navBottom"
+    android:background="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    kasqu:itemIconTint="@drawable/color_state"
+    kasqu:itemTextColor="@drawable/color_state"
+    kasqu:layout_constraintBottom_toBottomOf="parent"
+    kasqu:menu="@menu/menu_nav"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kasqu="http://schemas.android.com/apk/res-auto" />
